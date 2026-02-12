@@ -10,7 +10,7 @@ function simulasiPeminjaman(stokAwal, antrian) {
       stok -= 1;
     } else {
       gagal.push(nama);
-      break; // stop saat stok habis
+      break;
     }
   }
 
